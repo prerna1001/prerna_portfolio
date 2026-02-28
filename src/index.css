@@ -1,0 +1,50 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #050b18;
+  --bg2: #07101f;
+  --text: #e8f0fe;
+  --muted: rgba(180,200,255,0.45);
+  --faint: rgba(180,200,255,0.12);
+  --border: rgba(100,150,255,0.12);
+  --glass: rgba(255,255,255,0.04);
+  --glass-hover: rgba(255,255,255,0.08);
+  --glass-border: rgba(255,255,255,0.09);
+  --indigo: #818cf8;
+  --sky: #38bdf8;
+  --rose: #fb7185;
+  --emerald: #34d399;
+  --amber: #fbbf24;
+  --sidebar-w: 280px;
+}
+
+body.light {
+  --bg: #f0f4ff;
+  --text: #0f1733;
+  --muted: rgba(30,50,120,0.5);
+  --faint: rgba(30,50,120,0.07);
+  --border: rgba(80,100,200,0.15);
+  --glass: rgba(255,255,255,0.55);
+  --glass-hover: rgba(255,255,255,0.82);
+  --glass-border: rgba(255,255,255,0.88);
+  --indigo: #4f46e5;
+  --sky: #0284c7;
+  --rose: #e11d48;
+  --emerald: #059669;
+  --amber: #d97706;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Outfit', sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  transition: background 0.4s, color 0.4s;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
