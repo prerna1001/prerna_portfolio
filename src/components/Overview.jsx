@@ -28,17 +28,20 @@ export default function Overview({ onNav }) {
       {/* Hero grid */}
       <div style={{ display: 'grid', gridTemplateColumns: '1fr auto', gap: 32, alignItems: 'start', marginBottom: 40 }}>
         <GlassCard noHover style={{ padding: '28px 32px' }}>
-          <p style={{ fontSize: 14.5, color: 'var(--muted)', lineHeight: 1.85 }}>
-            I build across the full stack — and I mean that literally. React frontends, Python and Java backends, AI pipelines, databases, deployment — I've touched all of it in production.
-On the frontend I work with React and TypeScript to build interfaces that actually feel good to use. On the backend I'm equally comfortable in Python (FastAPI, Flask) and Java (Spring Boot) — building APIs, microservices, and systems that hold up under real load.
-The area I get most excited about is AI. I've built RAG pipelines, integrated OpenAI GPT-4 and LLaMA 3, designed multi-turn conversation flows, and done prompt engineering and LLM output validation in production. I've also built voice AI systems using ASR and Vapi.ai — not just played with them, actually shipped them.
-For infrastructure I've worked with PostgreSQL, MySQL, Oracle, PGVector, Supabase, AWS (EC2, S3), and Docker. I like owning the full thing — from the first prototype to the final deployment.
-My work spans healthcare platforms, AML compliance systems, and AI voice agents — across a fintech startup, internships, and university research.
+          <p style={{ fontSize: 14.5, color: 'var(--muted)', lineHeight: 1.85 }}> 
+             I build across the full stack and I mean that literally. React frontends, Python and Java backends, AI pipelines, databases, deployment. I've touched all of it in production.
 <br /><br />
-Currently a Research Assistant at Syracuse University working on emotion-aware ML models. I have about 2 years of hands-on experience and I'm actively looking for my next role — software engineering, full-stack, or AI engineering. Based in the United States, open to relocation anywhere.
-                        
-                      </p>
-          <div style={{ marginTop: 20 }}>
+On the frontend I work with React and TypeScript. On the backend I'm comfortable in Python (FastAPI, Flask) and Java (Spring Boot), building APIs and microservices that hold up under real load.
+<br /><br />
+Where I get most excited is AI. I've built RAG pipelines, integrated OpenAI GPT-4 and LLaMA 3, designed multi-turn conversation flows, and shipped voice AI systems using ASR and Vapi.ai. Not just played with them, actually shipped them.
+<br /><br />
+For infrastructure I've worked with PostgreSQL, MySQL, PGVector, Supabase, AWS (EC2, S3), and Docker.
+<br /><br />
+Currently a Research Assistant at Syracuse University working on emotion-aware ML models. About 2 years of hands-on experience across a fintech startup, internships, and research. Actively looking for software engineering, full-stack, or AI engineering roles. Based in the Philadelphia, PA and open to relocation anywhere in the US.
+
+          </p>
+        
+           <div style={{ marginTop: 20 }}>
             <Tag label="Philadelphia, PA" color="sky" />
             <Tag label="Open to Relocation (USA)" color="emerald" />
             <Tag label="Full Stack" color="indigo" />
