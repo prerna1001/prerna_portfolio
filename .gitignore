@@ -1,0 +1,44 @@
+# Node/Vite/React
+node_modules/
+dist/
+.env
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Build outputs
+*.out
+*.o
+
+# System files
+Thumbs.db
+
+# Misc
+*.swp
+*.swo
+
+# C build artifacts
+*.exe
+*.obj
+*.dll
+*.so
+*.a
+*.bin
+*.elf
+*.map
+*.dSYM/
+
+# Coverage
+coverage/
+
+# Others
+.idea/
+*.iml
+.history/
