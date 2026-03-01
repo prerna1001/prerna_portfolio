@@ -31,10 +31,10 @@ export default function Overview({ onNav }) {
           <p style={{ fontSize: 14.5, color: 'var(--muted)', lineHeight: 1.85 }}>
             I build across the stack — from responsive React frontends to Spring Boot APIs, from RAG pipelines to sandboxed Python execution environments. My work spans healthcare platforms, AML compliance systems, and AI voice agents.
             <br /><br />
-            Currently a Research Assistant at Syracuse University building emotion-aware ML models. With ~2 years of hands-on experience across internships and a full-time role, I'm actively looking for software engineering, full-stack, or AI engineering opportunities. Based in United States — open to relocation anywhere in the USA.
+            Currently a Research Assistant at Syracuse University building emotion-aware ML models. With ~2 years of hands-on experience across internships and a full-time role, I'm actively looking for software engineering, full-stack, or AI engineering opportunities. Based in Philadelphia, PA — open to relocation anywhere in the USA.
           </p>
           <div style={{ marginTop: 20 }}>
-            <Tag label="United States" color="sky" />
+            <Tag label="Philadelphia, PA" color="sky" />
             <Tag label="Open to Relocation (USA)" color="emerald" />
             <Tag label="Full Stack" color="indigo" />
             <Tag label="AI / ML" color="rose" />
