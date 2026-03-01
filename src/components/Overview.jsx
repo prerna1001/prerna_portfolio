@@ -29,10 +29,15 @@ export default function Overview({ onNav }) {
       <div style={{ display: 'grid', gridTemplateColumns: '1fr auto', gap: 32, alignItems: 'start', marginBottom: 40 }}>
         <GlassCard noHover style={{ padding: '28px 32px' }}>
           <p style={{ fontSize: 14.5, color: 'var(--muted)', lineHeight: 1.85 }}>
-            I build across the stack — from responsive React frontends to Spring Boot APIs, from RAG pipelines to sandboxed Python execution environments. My work spans healthcare platforms, AML compliance systems, and AI voice agents.
-            <br /><br />
-            Currently a Research Assistant at Syracuse University building emotion-aware ML models. With ~2 years of hands-on experience across internships and a full-time role, I'm actively looking for software engineering, full-stack, or AI engineering opportunities. Based in Philadelphia, PA — open to relocation anywhere in the USA.
-          </p>
+            I build across the full stack — and I mean that literally. React frontends, Python and Java backends, AI pipelines, databases, deployment — I've touched all of it in production.
+On the frontend I work with React and TypeScript to build interfaces that actually feel good to use. On the backend I'm equally comfortable in Python (FastAPI, Flask) and Java (Spring Boot) — building APIs, microservices, and systems that hold up under real load.
+The area I get most excited about is AI. I've built RAG pipelines, integrated OpenAI GPT-4 and LLaMA 3, designed multi-turn conversation flows, and done prompt engineering and LLM output validation in production. I've also built voice AI systems using ASR and Vapi.ai — not just played with them, actually shipped them.
+For infrastructure I've worked with PostgreSQL, MySQL, Oracle, PGVector, Supabase, AWS (EC2, S3), and Docker. I like owning the full thing — from the first prototype to the final deployment.
+My work spans healthcare platforms, AML compliance systems, and AI voice agents — across a fintech startup, internships, and university research.
+<br /><br />
+Currently a Research Assistant at Syracuse University working on emotion-aware ML models. I have about 2 years of hands-on experience and I'm actively looking for my next role — software engineering, full-stack, or AI engineering. Based in the United States, open to relocation anywhere.
+                        
+                      </p>
           <div style={{ marginTop: 20 }}>
             <Tag label="Philadelphia, PA" color="sky" />
             <Tag label="Open to Relocation (USA)" color="emerald" />
