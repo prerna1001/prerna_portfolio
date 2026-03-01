@@ -30,7 +30,7 @@ const CONTACTS = [
     icon: '📍',
     iconBg: 'rgba(56,189,248,0.12)',
     label: 'Location',
-    value: 'Philadelphia, PA',
+    value: 'United States',
     desc: 'Open to relocation anywhere in the USA & remote roles.',
     href: null,
   },
