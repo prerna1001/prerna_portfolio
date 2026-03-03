@@ -5,7 +5,7 @@ import { PROJECTS } from '../data.js'
 export default function Projects() {
   return (
     <div>
-      <PageHeader eyebrow="Portfolio" title="Selected" titleEm="Projects" subtitle="7 projects spanning full-stack apps, AI tools, voice agents, and backend systems — each solving a real problem." />
+      <PageHeader eyebrow="Portfolio" title="Selected" titleEm="Projects" subtitle="9 projects spanning full-stack apps, AI tools, voice agents, and backend systems — each solving a real problem." />
       <div style={{ display: 'flex', flexDirection: 'column', gap: 18 }}>
         {PROJECTS.map(p => <ProjectCard key={p.id} project={p} />)}
       </div>

@@ -1,6 +1,6 @@
 export const PROJECTS = [
     {
-      id: '08',
+      id: '01',
       name: 'Emotion-Aware Task Scheduling System',
       tagline: 'ML-driven system for habit and emotion-based task planning',
       desc: 'Syracuse University (Jun 2025–Mar 2026, Prof. Nadeem Ghani). Built on 14,584 task records, 10 personas, 365 days, 16 features. Used Logistic Regression, Decision Tree (best F1: 0.697), Random Forest, XGBoost. SHAP analysis confirmed Mood Score as dominant predictor (SHAP: 0.749). TextBlob (MAE: 0.48) outperformed VADER (MAE: 0.54).',
@@ -16,7 +16,7 @@ export const PROJECTS = [
       live: null,
     },
     {
-      id: '09',
+      id: '02',
       name: 'AIoT-Based Smart Education System',
       tagline: 'Dual-layer authentication & context-aware tutoring for smart classrooms',
       desc: 'Co-authored with Adithya Neelakantan, Pratik Satpute, Prerna Shinde, Tejas Manjunatha Devang (equal contribution). Syracuse University, College of Engineering and Computer Science. Published on arXiv, October 2025 (arXiv:2510.26999). Integrated AI and IoT platform for smart classrooms: dual-layer attendance authentication, context-aware RAG-based tutoring chatbot, automated quiz generation, and IoT environmental monitoring.',
@@ -37,7 +37,7 @@ export const PROJECTS = [
       arxivLabel: 'arXiv Paper',
     },
   {
-    id: '01',
+    id: '03',
     name: 'Vanessa — Voice AI Acquisitions Assistant',
     tagline: 'Auto-calls homeowners, classifies leads, and surfaces results in a live React dashboard',
     desc: 'Vanessa auto-calls homeowners using Vapi.ai, gathers selling intent through a structured conversation, summarizes each call with OpenAI GPT, and classifies leads as Qualified or Unqualified. Supports Excel uploads of phone number lists for bulk sequential outbound calling. Results display in a real-time React dashboard with lead tracking and call progress visibility.',
@@ -53,7 +53,7 @@ export const PROJECTS = [
     live: null,
   },
   {
-    id: '02',
+    id: '04',
     name: 'PlanPal — AI Planning Assistant',
     tagline: 'Voice-enabled AI assistant for travel, reminders & task planning on Cloudflare',
     desc: 'Built with Cloudflare Agents, Durable Objects, and Workers AI. PlanPal handles trip planning, event scheduling, and smart reminders through a chat or voice interface. Conversation history persists across sessions via Cloudflare Agents\' built-in state management. Reminders are stored in Durable Objects with alarm-based scheduling, and the LLM (LLaMA 3) runs on Workers AI infrastructure.',
@@ -68,7 +68,7 @@ export const PROJECTS = [
     live: 'https://7bed3bf5.cf-ai-planpal.pages.dev/',
   },
   {
-    id: '03',
+    id: '05',
     name: 'Universal URL Research Tool',
     tagline: 'RAG-powered research assistant that answers questions from any URL',
     desc: 'A Retrieval-Augmented Generation (RAG) system that fetches URLs, chunks and embeds content into PostgreSQL with pgvector, and answers natural language questions grounded only in those sources. Uses LangChain for orchestration, sentence-transformers for embeddings, and a Cloudflare Worker exposing LLaMA 3 as the LLM. Deployed live on Streamlit Cloud with Supabase PostgreSQL.',
@@ -84,7 +84,7 @@ export const PROJECTS = [
     live: 'https://universal-url-researc-7jj88zvtofjkvegmykp447.streamlit.app/',
   },
   {
-    id: '04',
+    id: '06',
     name: 'Pharma Press Release Search Platform',
     tagline: 'Full-stack intelligence platform for pharmaceutical newsroom content',
     desc: 'Built for a hackathon — scrapes press releases from AstraZeneca, J&J, Merck, Novo Nordisk, and Pfizer, indexes them in Elasticsearch, and serves a React frontend with advanced search, filtering, highlighted snippets, and CSV export. FastAPI backend exposes paginated endpoints for search, filter config, and full-text detail retrieval. Fully containerized with Docker Compose.',
@@ -100,7 +100,7 @@ export const PROJECTS = [
     live: null,
   },
   {
-    id: '05',
+    id: '07',
     name: 'Automated Email Reminder Platform',
     tagline: 'Full-stack scheduling platform for recurring automated emails',
     desc: 'Users schedule daily, weekly, monthly, or custom follow-up emails. Spring Boot backend stores schedules in Firebase Firestore, and a Java scheduler triggers emails via Twilio SendGrid at exact configured times. React frontend provides full task management — create, view, edit, and delete automations. Deployed on Vercel with Docker containerization.',
@@ -116,7 +116,7 @@ export const PROJECTS = [
     live: 'https://task-automation-ten.vercel.app',
   },
   {
-    id: '06',
+    id: '08',
     name: 'Safe Python Executor',
     tagline: 'Secure sandboxed execution environment for untrusted Python code',
     desc: 'A production-ready Flask REST API for safely executing arbitrary user-submitted Python scripts using nsjail for Linux namespace-based process isolation. Enforces strict syscall whitelisting, resource limits (512MB RAM, 10s timeout, no network access), and read-only filesystem mounts. Deployed on Google Cloud Run. Reduced first-time success rate from 40% to 85% through comprehensive error handling.',
@@ -131,7 +131,7 @@ export const PROJECTS = [
     live: null,
   },
   {
-    id: '07',
+    id: '09',
     name: 'Real-Time Updates System',
     tagline: 'Real-time data synchronization and update streaming',
     desc: 'A real-time updates system built to stream and synchronize data across clients. Implements efficient event-driven architecture for pushing live updates to connected users.',

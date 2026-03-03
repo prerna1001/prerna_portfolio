@@ -3,7 +3,7 @@ import { GlassCard, Tag } from './UI.jsx'
 export default function Overview({ onNav }) {
   const stats = [
     { num: '~2yr', label: 'Industry Experience' },
-    { num: '7',    label: 'Projects Built'       },
+    { num: '9',    label: 'Projects Built'       },
     { num: '3.677', label: "Master's GPA"         },
   ]
   const cards = [
