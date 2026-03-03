@@ -37,7 +37,8 @@ function ProjectCard({ project: p }) {
         </div>
         <div style={{ display: 'flex', gap: 8, flexShrink: 0 }}>
           {p.live && <LinkBtn href={p.live} variant="live">↗ Live</LinkBtn>}
-          <LinkBtn href={p.github}>GitHub</LinkBtn>
+          {p.github && <LinkBtn href={p.github}>GitHub</LinkBtn>}
+          {p.arxiv && <LinkBtn href={p.arxiv}>{p.arxivLabel || 'arXiv Paper'}</LinkBtn>}
         </div>
       </div>
 
