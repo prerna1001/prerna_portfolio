@@ -150,16 +150,17 @@ export const EXPERIENCE = [
   {
     company: 'Syracuse University — College of Engineering & Computer Science',
     role: 'Research Assistant',
-    period: 'Jun 2025 – Present · 9 months',
+    period: 'Jun 2025 – Present · 10 months',
     location: 'Remote · Syracuse, NY',
     type: 'current',
     stack: ['Python', 'scikit-learn', 'XGBoost', 'LSTM', 'SHAP', 'BERT', 'VADER', 'TextBlob'],
     highlights: [
-      'Building emotion-aware ML models to predict task adherence using behavioral, temporal, and mood-based features.',
+      'Building emotion-aware ML models to predict task adherence using behavioral, temporal, and mood-based features across a dataset of 14,584 records spanning 10 user personas and 365 days.',
       'Designing synthetic datasets and user personas simulating multi-week task routines and emotional patterns for controlled experimentation.',
-      'Training and evaluating Logistic Regression, Decision Trees, Random Forests, XGBoost, and LSTM models to assess prediction accuracy and generalization.',
-      'Applying feature engineering — lag features, rolling averages, interaction terms — and using SHAP for model interpretability.',
-      'Evaluating sentiment analysis tools (VADER, TextBlob, BERT-based) and developing reinforcement-oriented simulations for adaptive scheduling policies.',
+      'Training and evaluating Logistic Regression, Decision Trees (best F1: 0.697), Random Forests, XGBoost, and LSTM models to assess prediction accuracy and generalization.',
+      'Applying feature engineering — lag features, rolling averages, interaction terms (Mood x Priority) — and using SHAP for model interpretability; confirmed Mood Score as dominant predictor (SHAP value: 0.749).',
+      'Evaluating sentiment analysis tools (TextBlob MAE: 0.48 vs VADER MAE: 0.54) and implementing Q-learning adaptive recommendation policy for personalized scheduling.',
+      'Published full end-to-end reproducible pipeline on GitHub: github.com/prerna1001/Research_Assistant',
     ],
   },
   {
