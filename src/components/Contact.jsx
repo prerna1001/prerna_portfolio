@@ -26,14 +26,6 @@ const CONTACTS = [
     desc: 'Book a quick call to chat about opportunities.',
     href: 'https://calendly.com/shindeprerna1012/30min',
   },
-  {
-    icon: '📍',
-    iconBg: 'rgba(56,189,248,0.12)',
-    label: 'Location',
-    value: 'Philadelphia, PA',
-    desc: 'Open to relocation anywhere in the USA & remote roles.',
-    href: null,
-  },
 ]
 
 export default function Contact() {

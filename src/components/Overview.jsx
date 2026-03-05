@@ -37,13 +37,11 @@ Where I get most excited is AI. I've built RAG pipelines, integrated OpenAI GPT-
 <br /><br />
 For infrastructure I've worked with PostgreSQL, MySQL, PGVector, Supabase, AWS (EC2, S3), and Docker.
 <br /><br />
-Currently a Research Assistant at Syracuse University working on emotion-aware ML models. About 2 years of hands-on experience across a fintech startup, internships, and research. Actively looking for software engineering, full-stack, or AI engineering roles. Based in the Philadelphia, PA and open to relocation anywhere in the US.
+Currently a Research Assistant at Syracuse University working on emotion-aware ML models. About 2 years of hands-on experience across a fintech startup, internships, and research. Actively looking for software engineering, full-stack, or AI engineering roles. 
 
           </p>
         
            <div style={{ marginTop: 20 }}>
-            <Tag label="Philadelphia, PA" color="sky" />
-            <Tag label="Open to Relocation (USA)" color="emerald" />
             <Tag label="Full Stack" color="indigo" />
             <Tag label="AI / ML" color="rose" />
           </div>
